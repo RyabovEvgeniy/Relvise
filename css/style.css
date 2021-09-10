@@ -38,3 +38,9 @@ body {
 	min-height: 100%;
 	overflow: hidden;
 }
+
+/* ._container - технический класс который содержит общие стили*/
+._container {
+	min-width: 1046px;
+	margin: 0 auto;
+}
