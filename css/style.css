@@ -42,6 +42,6 @@ body {
 
 /* ._container - технический класс который содержит общие стили*/
 ._container {
-	min-width: 1046px;
+	max-width: 1046px;
 	margin: 0 auto;
 }
