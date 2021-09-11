@@ -77,7 +77,6 @@ body {
 	display: flex;
 }
 .menu__item {
-	margin: 0px 0px 0px 21px;
 }
 .menu__item:not(:last-child) {
 	margin: 0px 21px 0px 0px;
