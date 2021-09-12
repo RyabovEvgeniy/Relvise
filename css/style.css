@@ -116,8 +116,8 @@ body {
 	}
 }
 
-/* ----- Main -----*/
-.main {
+/* ----- Page -----*/
+.page {
 	flex: 1 1 auto;
 }
 
