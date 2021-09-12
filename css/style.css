@@ -40,6 +40,8 @@ body {
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 
 /* ._container - технический класс который содержит общие стили*/
@@ -113,3 +115,10 @@ body {
 		font-size: 18px;
 	}
 }
+
+/* ----- Main -----*/
+.main {
+	flex: 1 1 auto;
+}
+
+/* ----- Подвал -----*/
