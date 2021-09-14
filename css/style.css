@@ -143,6 +143,9 @@ body {
 }
 
 .main-block__body {
+	padding: 184px 0px 191px 0px;
+	position: relative;
+	z-index: 2;
 }
 
 .main-block__title {
