@@ -198,4 +198,16 @@ body {
 	top: 0;
 	left: 0;
 }
+
+/* Адаптив картинки */
+@media (max-width: 1300px) {
+	.main-block__image img {
+		object-position: right;
+	}
+}
+@media (max-width: 992px) {
+	.main-block__image img {
+		opacity: 0.5;
+	}
+}
 /* ----- Подвал -----*/
