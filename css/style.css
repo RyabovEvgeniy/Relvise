@@ -242,6 +242,9 @@ body {
 }
 .item-service {
 }
+.item-service_green {
+	background-color: #0d5c63;
+}
 .item-service > *:not(:last-child) {
 	margin: 0px 0px 10px 0px;
 }
