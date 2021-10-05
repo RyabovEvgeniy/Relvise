@@ -245,6 +245,13 @@ body {
 .item-service_green {
 	background-color: #0d5c63;
 }
+.item-service_green .item-service__title {
+	color: #fff;
+}
+.item-service_green .item-service__text {
+	color: #fff;
+}
+
 .item-service > *:not(:last-child) {
 	margin: 0px 0px 10px 0px;
 }
