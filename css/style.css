@@ -226,17 +226,27 @@ body {
 	}
 }
 
+/* Блок карточек */
 .services {
 }
 .services__container {
 }
 .services__body {
 	display: flex;
+	flex-wrap: wrap;
 	margin: 0px -15px;
 }
 .services__column {
 	padding: 0px 15px;
 	flex: 0 1 33.333%;
+}
+
+/* Адаптив карточек */
+@media (max-width: 992px) {
+	.services__column {
+		flex: 0 1 50%;
+		margin: 0px 0px 30px 0px;
+	}
 }
 .services__item {
 	height: 100%;
