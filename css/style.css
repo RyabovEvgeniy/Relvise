@@ -341,6 +341,10 @@ body {
 	margin: 0px 0px 10px 0px;
 }
 .advantages_icon {
+	height: 48px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
 }
 .advantages__value {
 	font-size: 40px;
