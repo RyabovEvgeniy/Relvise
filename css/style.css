@@ -668,21 +668,41 @@ body {
 .subscribe__body {
 	position: relative;
 	z-index: 2;
-	margin: 0 30px;
-	display: flex;
-	justify-content: space-between;
 	padding: 30px 50px;
 	align-items: center;
 	background: #17213c;
 	border-radius: 2px;
 }
+@media (min-width: 1070px) {
+	.subscribe__body {
+		margin: 0 30px;
+	}
+}
+
 .subscribe__title {
-	max-width: 266px;
 	color: #ffffff;
 	font-size: 133%;
 	font-weight: 700;
 	line-height: 32px;
 	letter-spacing: 0.1px;
+}
+@media (max-width: 810px) {
+	.subscribe__title {
+		margin: 0px 0px 20px 0px;
+	}
+	.subscribe__body {
+		margin: 0px -15px;
+		padding: 20px 25px;
+	}
+}
+@media (min-width: 810px) {
+	.subscribe__title {
+		max-width: 266px;
+	}
+	.subscribe__body {
+		display: flex;
+		justify-content: space-between;
+	}
 }
 .subscribe__form {
 	flex: 0 1 50%;
@@ -691,6 +711,7 @@ body {
 }
 
 .subscribe__input {
+	width: 100%;
 	flex: 1 1 auto;
 	min-height: 58px;
 	background: #f9f9f9;
