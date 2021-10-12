@@ -484,6 +484,7 @@ body {
 /* Блок Who We Are */
 
 .whoweare {
+	background: #ffffff;
 	padding: 80px 0px 130px 0px;
 }
 @media (max-width: 950px) {
