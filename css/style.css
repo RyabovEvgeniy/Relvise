@@ -151,6 +151,8 @@ body {
 }
 .page__getintouch {
 }
+.page__contact {
+}
 /* ----- HEADER-BLOCK -----*/
 .header-block {
 	text-align: center;
@@ -833,5 +835,19 @@ body {
 .item-getintouch__button:hover {
 	background-color: #ff7b47;
 	color: #fff;
+}
+/* Блок Contact */
+
+.contact__container {
+}
+.contact__body {
+}
+.contact__content {
+}
+.contact__title {
+}
+.contact__text {
+}
+.contact__button {
 }
 /* ----- Подвал -----*/
