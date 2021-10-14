@@ -121,6 +121,9 @@ body {
 	line-height: 171%;
 	font-weight: 600;
 }
+.menu__link:hover {
+	text-decoration: underline;
+}
 @media (max-width: 479px) {
 	.menu__link {
 		font-size: 18px;
@@ -237,7 +240,9 @@ body {
 	font-weight: 700;
 	line-height: 150%;
 	padding: 5px 36px;
+	transition: all 0.3s ease 0s;
 }
+
 .main-block__button:not(:last-child) {
 	margin: 0px 10px 0px 0px;
 }
@@ -245,9 +250,17 @@ body {
 	background: #ff7b47;
 	color: #fff;
 }
+.main-block__button_orange:hover {
+	background: #fff;
+	color: #ff7b47;
+}
 .main-block__button_border {
 	color: #0d5c63;
 	border: 1px solid #0d5c63;
+}
+.main-block__button_border:hover {
+	background: #0d5c63;
+	color: #fff;
 }
 .main-block__image {
 	position: absolute;
@@ -736,11 +749,15 @@ body {
 	min-height: 58px;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
 	text-align: center;
 	color: #ffffff;
+	transition: all 0.3s ease 0s;
 	padding: 0px 22px;
 }
-
+.subscribe__button:hover {
+	background: #ca6137;
+}
 /* Блок Get In Touch */
 
 .getintouch {
